@@ -13,6 +13,7 @@ int main(){
     x = y; //(y=x-y;) ||  // *q = 2 ;
      y = temp; x=x-y;// now cout || //cout<<x<< " "<<y<<endl;
     cout<<x<<" "<<y<<endl;
+    
 
     return 0;
 }
