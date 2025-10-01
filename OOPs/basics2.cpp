@@ -24,6 +24,7 @@ class Student{
     //Destructor, this is have a same name as class 
     ~Student(){
         cout<<"Hii! I delete everything\n";
+        delete cgpaPtr; //to free occupied memory
     }
     void getInfo(){
         cout<<"Name: "<<name<<endl;
