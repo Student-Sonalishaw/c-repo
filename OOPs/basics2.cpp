@@ -22,9 +22,9 @@ class Student{
     }
 
     //Destructor, this is have a same name as class 
-    ~Student(){
+    ~Student(){//to free occupied memory
         cout<<"Hii! I delete everything\n";
-        delete cgpaPtr; //to free occupied memory
+        delete cgpaPtr; //  this is because we used new
     }
     void getInfo(){
         cout<<"Name: "<<name<<endl;
