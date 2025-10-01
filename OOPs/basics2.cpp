@@ -20,6 +20,11 @@ class Student{
         cgpaPtr = new double; // for deep copy
         this->cgpaPtr = obj.cgpaPtr;
     }
+
+    //Destructor, this is have a same name as class 
+    ~Student(){
+        cout<<"Hii! I delete everything\n";
+    }
     void getInfo(){
         cout<<"Name: "<<name<<endl;
         cout<<"cgpa: "<<*cgpaPtr<<endl;
