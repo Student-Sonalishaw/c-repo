@@ -17,6 +17,7 @@ class Student{
     //copy constructor made by own
     Student(Student &obj) {
         this->name = obj.name;
+        cgpaPtr = new double; // for deep copy
         this->cgpaPtr = obj.cgpaPtr;
     }
     void getInfo(){
@@ -27,9 +28,11 @@ class Student{
 
 int main(){
     Student s1("Sonali shaw",9.9);
-    /* s1.getInfo(); */
+     s1.getInfo(); 
      //copy consructor
     Student s2(s1);
+    *(s2.cgpaPtr) = 9.5;
+    s2.name = "Dip";
     s2.getInfo(); 
 
     return 0;
