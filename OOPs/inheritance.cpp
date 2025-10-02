@@ -20,7 +20,7 @@ class Person{
     } */
 };
 
-//Inheritance 
+// singlr level Inheritance 
 class Student : public Person {// after new class : any access modifier and class name which wanted to inherit
     //name.age,roll
     public:
