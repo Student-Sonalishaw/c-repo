@@ -4,9 +4,9 @@ using namespace std;
 //syntax
 class Teacher{ 
     //Encapsulation
-    private: // access modifier just only inside class
+private: // access modifier just only inside class
     double salary;
-    public: // access modifier to everyone
+public: // access modifier to everyone
     //properties or attributes
     string name;
     string subject;
