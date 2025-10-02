@@ -3,17 +3,17 @@
 using namespace std;
 //Hierarchial inheritance
 class Person{
-    public:
+public:
     string name;
     int age;
 };
 class Student : public Person{
-    public:
+public:
     int rollno;
 };
 
 class Teacher : public Person{
-    public: 
+public: 
     string subject;
 };
 int main(){
@@ -22,7 +22,7 @@ int main(){
     s1.name = "Sonali";
     s1.age = 18;
     s1.rollno = 102;
-    
+
     cout<<s1.name<<endl;
     cout<<s1.age<<endl;
     cout<<s1.rollno<<endl;
