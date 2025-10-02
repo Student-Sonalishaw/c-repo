@@ -3,18 +3,18 @@
 using namespace std;
  // Multi-level inheritance
 class Person{
-    public:
+public:
     string name;
     int age;
 };
 
 class Student : public Person{
-    public: 
+public: 
     int rollno;
 };
 
 class GradStudent : public Student{
-    public:
+public:
     string researchArea;
 };
 
