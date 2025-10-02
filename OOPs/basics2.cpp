@@ -3,7 +3,7 @@
 using namespace std;
 
 class Student{
-    public:
+public:
     string name;
     /* double cgpa; */
     double* cgpaPtr;
