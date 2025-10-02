@@ -6,7 +6,7 @@ class Person{
 public:
     string name;
     int age;
-
+     //constructor
      Person(string name, int age){
         this->name = name;
         this->age = age;
