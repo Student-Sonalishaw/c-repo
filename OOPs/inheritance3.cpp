@@ -3,19 +3,19 @@
 using namespace std;
 //Multiple inhertitance
 class Student{
-    public:
+public:
     string name;
     int rollno;
 };
 
 class Teacher{
-    public: 
+public: 
     string subject;
     double salary;
 };
 // TA class inherit student and teacher class both
 class TA : public Student , public Teacher{
-    public:
+public:
     string reasearchArea;
 };
 int main(){
