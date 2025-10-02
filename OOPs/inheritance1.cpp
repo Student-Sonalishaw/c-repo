@@ -3,7 +3,7 @@
 using namespace std;
 
 class Person{
-    public:
+public:
     string name;
     int age;
 
@@ -23,7 +23,7 @@ class Person{
 // single level Inheritance 
 class Student : public Person {// after new class : any access modifier and class name which wanted to inherit
     //name.age,roll
-    public:
+public:
     int rollno;
 
     Student(string name, int age, int rollno) : Person( name, age){ //constructor call
