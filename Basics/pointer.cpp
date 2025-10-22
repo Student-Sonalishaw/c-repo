@@ -9,6 +9,10 @@ int main(){
     // if we want to change the value of x without using x then,
     // *ptr = 23;
     //cout<<x<<endl;
+    ptr++; // increment. same as decrement case
+    cout<< ptr << endl;
+    ptr = ptr+2; // added 2int => 8Bytes at adress. same as substract also
+    cout<< ptr << endl;
 
     return 0;
 }
